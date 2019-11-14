@@ -17,9 +17,9 @@ public class HbaseDataSource {
 	@Value("${hbase.phoenix.driverClass}")
     private String driverClass; //="org.apache.phoenix.jdbc.PhoenixDriver";
 	@Value("${hbase.zkUrl}")
-    private String zkUrl; //= "172.16.2.144,172.16.2.146:2181:/hbase-unsecure";//"172.16.4.40:2181";
+    private String zkUrl;
 	@Value("${hbase.phoenixUrl.prefix}")
-    private String phoenixUrlPrefix;  //= "jdbc:phoenix:" + "172.16.2.144,172.16.2.146:2181:/hbase-unsecure";
+    private String phoenixUrlPrefix;
 	@Value("${hbase.username}")
     private String username;
 	@Value("${hbase.password}")
